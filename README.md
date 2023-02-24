@@ -17,7 +17,6 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 - `build`：存放solidity编译后的abi与bin文件
 - `contracts`：存放solidity合约
 - `docs`：存放文档
-- `deploy`：存放部署合约的go脚本
 - `scripts`：存放部署合约的go脚本
 - `test`：存放solidity测试go脚本
 
@@ -49,4 +48,17 @@ go run scripts/deploy_storage.go
 
 ```
 同一个package下,有多个main。在文件开头添加`//go:build ignore`。
+```
+
+## 第三方库的使用
+
+直接使用 git submodule 来管理第三方库。例如oppenzeppelin使用如下：
+
+```
+git submodule add https://github.com/OpenZeppelin/openzeppelin-contracts.git contracts/openzeppelin-contracts
+```
+
+```
+git submodule update // 更新本地项目子模块到最新版本
+git submodule update --remote // 更新远程项目子模块到最新版本
 ```
