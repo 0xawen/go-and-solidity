@@ -23,17 +23,34 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 
 更多相关文档说明存在`docs`目录下, 请移步查看。
 
+### 更新计划
+
+基础知识一般在master分支更新,其他主题在对应的分支上更新。
+
+- [巩固solidity的重要知识点](./contracts/advanced) 在master分支上更新
+- [opnezeppelin合约库使用](./contracts/openzeppelin-example)  待更新 (在openzeppelin分支更新)
+- [HQ20合约库](./contracts/hq20) 待更新 (在HQ20/contracts分支更新)
+
+# 使用说明
 
 ## 编译合约
-
+```
 ./bin/solc-windows-0.8.19.exe --abi --bin --optimize --overwrite -o ./build ./contracts/Storage.sol
+```
 
+```
 ./bin/solc-static-linux-0.8.19 --abi --bin --optimize --overwrite -o ./build ./contracts/Storage.sol
+```
 
 ## go绑定合约
 
+```
 mkdir ./artifacts/storage
+```
+
+```
 ./bin/abigen.exe --abi=./build/Storage.abi --bin=./build/Storage.bin --pkg=storage --type Storage --out=./artifacts/storage/storage.go
+```
 
 ## go测试合约
 
