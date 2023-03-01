@@ -49,3 +49,5 @@ function test(uint256 b) public returns (uint) {
 ## 可升级代理(selector clash)
 
 ## 透明代理(transparent proxy)
+
+## 通用可升级代理(uups)
