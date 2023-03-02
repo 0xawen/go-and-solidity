@@ -22,7 +22,7 @@ func TestDeployStorage(t *testing.T) {
 	blockGasLimit := uint64(4712388)
 	sim := backends.NewSimulatedBackend(core.GenesisAlloc{
 		auth.From: {
-			Balance: big.NewInt(1000000000000000000),
+			Balance: big.NewInt(100000000000000000000),
 		},
 	}, blockGasLimit)
 
