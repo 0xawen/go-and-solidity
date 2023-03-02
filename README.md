@@ -55,7 +55,6 @@ go test -v ./test/...
 ```
 go test -v ./test/storage_test.go
 ```
-
 ## go部署合约
 
 go run scripts/deploy_storage.go
@@ -76,3 +75,7 @@ git submodule add https://github.com/OpenZeppelin/openzeppelin-contracts.git con
 git submodule update // 更新本地项目子模块到最新版本
 git submodule update --remote // 更新远程项目子模块到最新版本
 ```
+
+## Todo
+
+- 安全分析: Mythril-Slither-Manticore-MythX-Echidna-Oyente
