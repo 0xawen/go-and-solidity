@@ -26,14 +26,15 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 
 ### 更新计划
 
+- [solidity基础知识点](./docs/solidity基础知识点.md)
 - [solidity的重点](./docs/solidity重点.md)
-- [solidity的难点-代理合约](./docs/solidity难点_代理合约.md)
+- [solidity的难点](./docs/solidity难点_代理合约.md)
 - [智能合约的常见应用](./docs/常见应用.md)
 - [defi专题](./contracts/defi) 待更新
 - [nft专题](./contracts/nft) 待更新
+- [合约安全专题](./contracts/securit)  待更新
 - [opnezeppelin合约库](./contracts/openzeppelin-example)  待更新
 - [HQ20合约库](./contracts/HQ20-examples)  待更新
-- [合约安全](./contracts/securit)  待更新
 
 ## 使用说明
 
