@@ -25,17 +25,18 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 
 ### 更新计划
 
-
-
 - [solidity的重点](./contracts/advanced)
 - [solidity的难点-代理合约](./contracts/proxy)
 - [智能合约的常见应用](./contracts/applications)
+- [defi专题](./contracts/defi) 待更新
+- [nft专题](./contracts/nft) 待更新
 - [opnezeppelin合约库](./contracts/openzeppelin-example)  待更新
+- [HQ20合约库](./contracts/HQ20-examples)
 
 ## 使用说明
 
 1. 编译工具安装,查看[solc/abigen](./docs/solidity编译工具与abigen工具.md)
-2. 如是使用go去测试合约,详细过程查看:[实践说明文档](./docs/go-and-solidity的实践说明.md)
+2. 使用go去测试合约,详细过程查看:[实践说明文档](./docs/go-and-solidity的实践说明.md)
 
 ## 其他
 
