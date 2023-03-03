@@ -1,6 +1,6 @@
 # go and solidity
 
-- 目的：使用go开发与测试solidity合约。
+目标：使用go开发与测试solidity合约。
 
 ### 起因
 
@@ -25,57 +25,20 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 
 ### 更新计划
 
-- [巩固solidity的重要知识点](./contracts/advanced) 在master分支上更新
+
+
+- [solidity的重点](./contracts/advanced)
+- [solidity的难点-代理合约](./contracts/proxy)
+- [智能合约的常见应用](./contracts/applications)
 - [opnezeppelin合约库](./contracts/openzeppelin-example)  待更新
 
-# 使用说明
+## 使用说明
 
-## 编译合约
-```
-./bin/solc-windows-0.8.19.exe --abi --bin --optimize --overwrite -o ./build ./contracts/Storage.sol
-```
+1. 编译工具安装,查看[solc/abigen](./docs/solidity编译工具与abigen工具.md)
+2. 如是使用go去测试合约,详细过程查看:[实践说明文档](./docs/go-and-solidity的实践说明.md)
 
-```
-./bin/solc-static-linux-0.8.19 --abi --bin --optimize --overwrite -o ./build ./contracts/Storage.sol
-```
+## 其他
 
-## go绑定合约
-
-```
-mkdir ./artifacts/storage
-```
-
-```
-./bin/abigen.exe --abi=./build/Storage.abi --bin=./build/Storage.bin --pkg=storage --type Storage --out=./artifacts/storage/storage.go
-```
-
-## go测试合约
-
-go test -v ./test/...
-```
-go test -v ./test/storage_test.go
-```
-## go部署合约
-
-go run scripts/deploy_storage.go
-
-```
-同一个package下,有多个main。在文件开头添加`//go:build ignore`。
-```
-
-## 第三方库的使用
-
-直接使用 git submodule 来管理第三方库。例如oppenzeppelin使用如下：
-
-```
-git submodule add https://github.com/OpenZeppelin/openzeppelin-contracts.git contracts/openzeppelin-contracts
-```
-
-```
-git submodule update // 更新本地项目子模块到最新版本
-git submodule update --remote // 更新远程项目子模块到最新版本
-```
-
-## Todo
-
-- 安全分析: Mythril-Slither-Manticore-MythX-Echidna-Oyente
+本仓库参考的教程有：
+1. https://solidity-by-example.org/
+2. https://github.com/AmazingAng/WTF-Solidity
