@@ -3,7 +3,7 @@ package applications_test
 import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"go-and-solidity/artifacts/applications"
+	"go-and-solidity/artifacts-go/applications"
 	"go-and-solidity/test/helper"
 	"math/big"
 	"testing"

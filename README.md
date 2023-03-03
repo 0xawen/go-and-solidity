@@ -12,7 +12,7 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 
 
 ### 项目结构
-- `artifacts`：存放abigen生成的go文件
+- `artifacts-go`：存放abigen生成的go文件
 - `bin`: 存放solidity编译工具与abi工具
 - `build`：存放solidity编译后的abi与bin文件
 - `contracts`：存放solidity合约
