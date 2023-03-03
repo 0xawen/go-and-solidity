@@ -3,7 +3,7 @@
 ## 1. 基础语法知识点
 (掌握语法基础的可以跳过这一部分)
 
-## 2. 进阶知识点
+## 2. 重要知识点
 
 ### 函数重载
 
@@ -43,11 +43,3 @@ function test(uint256 b) public returns (uint) {
 ### create 从合约中创建合约
 
 ### create2 从的合约中创建合约
-
-## 代理合约
-
-## 可升级代理(selector clash)
-
-## 透明代理(transparent proxy)
-
-## 通用可升级代理(uups)
