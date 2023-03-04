@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"go-and-solidity/artifacts-go/security/reentrancy"
-	"go-and-solidity/test/helper"
+	"go-and-solidity/test/go-test/helper"
 	"math/big"
 	"testing"
 )

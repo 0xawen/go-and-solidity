@@ -20,7 +20,9 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 - `docs`：存放文档
 - `lib`: 第三方合约库,使用git submodule管理
 - `scripts`：存放部署合约的go脚本
-- `test`：存放solidity测试go脚本
+- `test`：存放solidity测试文件
+  - `foundry-test` foundry 测试文件
+  - `go-test` go 测试文件
 
 
 更多相关文档说明存在`docs`目录下, 请移步查看。

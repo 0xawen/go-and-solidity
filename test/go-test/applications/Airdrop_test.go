@@ -6,7 +6,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"go-and-solidity/artifacts-go/applications"
 	"go-and-solidity/artifacts-go/openzeppelin-examples/token"
-	"go-and-solidity/test/helper"
+	"go-and-solidity/test/go-test/helper"
 	"math/big"
 	"testing"
 )
