@@ -18,6 +18,7 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 - `build`：存放solidity编译后的abi与bin文件
 - `contracts`：存放solidity合约
 - `docs`：存放文档
+- `lib`: 第三方合约库,使用git submodule管理
 - `scripts`：存放部署合约的go脚本
 - `test`：存放solidity测试go脚本
 
@@ -35,12 +36,18 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 - [nft专题](./docs/nft.md) 待更新
 - [opnezeppelin合约库](./docs/openzeppelin合约库.md)  待更新
 - [HQ20合约库](./docs/HQ20合约库.md)  待更新
-- [构建大型智能合约系统之钻石标准](./docs/diamond.md)
+- [构建大型智能合约系统之钻石标准](./docs/diamond.md) 待更新
 
 ## 使用说明
 
 1. 编译工具安装,查看[solc/abigen](./docs/solidity编译工具与abigen工具.md)
 2. 使用go去测试合约,详细过程查看:[实践说明文档](./docs/go-and-solidity的实践说明.md)
+
+## Foundry 工具的支持
+
+foundry.toml 的 `src` 设置为 contracts。
+
+forge install foundry-rs/forge-std --no-commit
 
 ## 其他
 
