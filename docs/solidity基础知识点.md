@@ -4,6 +4,8 @@
 
 作用：用于快速的过一遍
 
+参考：https://www.tutorialspoint.com/solidity/index.htm
+
 ## 类型
 bool; address; uint8-256;int8-256;
 ## 变量
