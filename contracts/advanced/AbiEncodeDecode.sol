@@ -21,7 +21,7 @@ contract AbiEncode {
     }
 
     function encodeWithSelector(address to, uint amount) external pure returns (bytes memory) {
-        return abi.encodeWithSelector(IERC20.Transfer.selector, to, amount);
+        return abi.encodeWithSelector(IERC20.transfer.selector, to, amount);
     }
 }
 

@@ -1,6 +1,6 @@
 # go and solidity
 
-目标：使用go开发与测试solidity合约。
+目标：使用go开发与测试solidity合约。（以支持foundry工具）
 
 ### 起因
 
@@ -9,8 +9,6 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 而我一直对 ts/js 不感冒，虽然可以使用起来也没有问题，但是感觉使用go来开发测试合约更加的顺手。
 
 于是，就有了这个项目`go-and-solidity`。 同时，也巩固一下go知识和solidity知识。
-
-视情况,后面增加foundry工具支持。
 
 ### 项目结构
 - `artifacts-go`：存放abigen生成的go文件
