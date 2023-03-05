@@ -29,6 +29,8 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 
 ### 更新计划
 
+内容有点多,更新比较慢。
+
 - [solidity基础知识点](./docs/solidity基础知识点.md)
 - [solidity的重点](./docs/solidity重点.md)
 - [solidity的难点](./docs/solidity难点_代理合约.md)
@@ -50,6 +52,8 @@ hardhat 是目前最流行的solidity开发测试框架。但是hardhat需要使
 foundry.toml 的 `src` 设置为 contracts。
 
 forge install foundry-rs/forge-std --no-commit
+
+foundry 文档： https://github.com/foundry-rs/forge-std/tree/master
 
 ## 其他
 
