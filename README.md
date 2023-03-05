@@ -1,6 +1,6 @@
 # go and solidity
 
-目标：使用go开发与测试solidity合约。（以支持foundry工具）
+目标：使用go开发与测试solidity合约。（已支持foundry工具）
 
 ### 起因
 
